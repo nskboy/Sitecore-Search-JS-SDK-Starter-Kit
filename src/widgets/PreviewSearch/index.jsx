@@ -20,7 +20,7 @@ export const PreviewSearchComponent = ({ defaultItemsPerPage = 6 }) => {
     },
   } = usePreviewSearch({
     state: {
-      suggestionsList: [{ suggestion: 'title_context_aware', max: 6 }],
+      //suggestionsList: [{ suggestion: 'title_context_aware', max: 6 }],
       itemsPerPage: defaultItemsPerPage,
     },
   });
